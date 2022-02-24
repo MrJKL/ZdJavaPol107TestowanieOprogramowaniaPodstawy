@@ -7,4 +7,12 @@ public class StringUtil {
                 || (input.trim().isEmpty() && !input.equals("\n"));
     }
 
+    //true:
+    // null
+    // "" " " "  "
+
+    //false
+    // "a"
+    // " a" " a " "a "
+
 }

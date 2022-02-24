@@ -7,6 +7,6 @@ public class AssertionsExamples {
     }
 
     public boolean ifDigitIsEven(int digit) {
-        return (digit % 2 == 0) ? true : false;
+        return digit % 2 == 0;
     }
 }
